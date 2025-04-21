@@ -41,12 +41,11 @@ Esta aplicación forma parte de un proyecto más grande de **Sistemas Dinámicos
 
 3. **Configurar variables de entorno**
 
-   Crea un archivo `.env.local` en la raíz y añade:
+   Crea un archivo `.env` en la raíz y añade:
    ```env
    GOOGLE_API_KEY=tu_clave_de_api
-   NEXT_PUBLIC_BASE_URL=http://localhost:3000
+   NEXT_PUBLIC_BASE_URL=Tu_URL_de_despliegue (por ejemplo, Vercel, Netlify, Localhost, etc.)
    ```
-   > **Importante**: `.env*` está en `.gitignore` para evitar subir claves.
 
 4. **Ejecutar en modo desarrollo**
    ```bash
